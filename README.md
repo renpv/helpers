@@ -5,6 +5,11 @@
 
 ### Erro ao tentar acessar o banco mysql com wampserver
 
+Para resolver o seguinte erro
+```
+mysqli_real_connect(): Server sent charset (255) unknown to the client. Please, report to the developers
+```
+
 Atualizar as seguintes chaves no arquivo `my.ini`
 
 ```
