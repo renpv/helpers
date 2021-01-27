@@ -1,10 +1,9 @@
 # helpers
--Setar alias php5.6 no CLI
+### Setar alias php5.6 no CLI
 
 `alias php56="winpty C:/wamp64/bin/php/php5.6.40/php.exe"`
 
-Erro ao tentar acessar o banco mysql com wampserver
-
+### Erro ao tentar acessar o banco mysql com wampserver
 
 Atualizar as seguintes chaves no arquivo `my.ini`
 
