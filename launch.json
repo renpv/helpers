@@ -20,4 +20,3 @@ SAIL_XDEBUG_MODE=debug
 // Também é necessário uma das ações adicionais
 // Ou usar a url http://localhost/?XDEBUG_TRIGGER
 // Ou instalar a extensão 'Xdebug helper' para o navegador e ativar o modo Debug
-
