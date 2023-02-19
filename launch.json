@@ -5,11 +5,19 @@
             "name": "Xdebug com Laravel Sail",
             "type": "php",
             "request": "launch",
-            "hostname": "0.0.0.0",
             "port": 9003,
+            "hostname": "0.0.0.0",
             "pathMappings": {
                 "/var/www/html": "${workspaceFolder}"
             }
         }
     ]
 }
+
+// Observação: para funcionar é necessário incluir a seguinte configuração no arquivo .ini
+SAIL_XDEBUG_MODE=debug
+
+// Também é necessário uma das ações adicionais
+// Ou usar a url http://localhost/?XDEBUG_TRIGGER
+// Ou instalar a extensão 'Xdebug helper' para o navegador e ativar o modo Debug
+
